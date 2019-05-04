@@ -27,12 +27,20 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#2196f3' },
 
   /*
    ** Global CSS
    */
-  css: ['~/assets/style/app.styl'],
+  css: ['~/assets/style/app.styl', '~/assets/style/main.css'],
+
+  /*
+   ** Page Routing Transition
+   */
+  transition: {
+    name: 'fade',
+    mode: 'out-in'
+  },
 
   /*
    ** Plugins to load before mounting the App
